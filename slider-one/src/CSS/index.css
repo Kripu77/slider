@@ -26,21 +26,21 @@ body{
 }
 
 .container{
-    width: 50vw;
+    max-width: 50vw;
     height: 60vh;
     margin: 9rem auto 0 auto;
     background-color: transparent;
 }
 
 .image{
-    width: 30vw;
-    height:18vh;
+    width: 20vw;
+    height:30vh;
     border-radius: 50%;
 }
 
 .text{
     margin-top: 3rem;
-    font-size: 1.1rem;
+    font-size: 1.9rem;
     color: grey;
 }
 .btn{
@@ -51,4 +51,12 @@ body{
 margin: 3rem 10rem;
     font-size: 3rem;
     display: none;
+}
+
+@media all and (max-width: 600px){
+.image {
+   width: 40vw;
+   height:20vh;
+   border-radius: 50%;
+}
 }
