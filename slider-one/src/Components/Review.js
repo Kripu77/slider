@@ -3,10 +3,11 @@ import { GrFormPreviousLink,  GrFormNextLink } from "react-icons/gr";
 
 const Review = ({id, name, job, text, image, setIndex, index, quotes}) => {
 useEffect(()=>{
-setInterval(()=>{
-   let test= setIndex((index)=>checkFn(index-1))
+    //set interval on when the function  should trigger
+ let test= setInterval(()=>{
+  setIndex((index)=>checkFn(index-1))
 }, 8000);
-
+//use clean up function
 return ()=> clearInterval(test)
 },[])
     const checkFn = (index)=>{
@@ -18,6 +19,7 @@ return ()=> clearInterval(test)
         }
         return index;
     }
+    // we have done index based approach rather than mapping to every value
     return (
         <article>
         <div className="image-container">
