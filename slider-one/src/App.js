@@ -12,7 +12,7 @@ const [index, setIndex] = useState(0)
        <main>
            <h1 className="title">Inspiring Quotes</h1>
            <div className="container">
-<Review {...quotes[index]} setIndex={setIndex}/>
+<Review {...quotes[index]} setIndex={setIndex} index={index} quotes={quotes}/>
            </div>
        </main>
     )

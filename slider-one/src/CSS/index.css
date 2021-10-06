@@ -10,13 +10,19 @@ body{
     background-color: #f1f5f8;
     font-size: 1rem;
     text-align: center;
+     font-family:'Trebuchet MS',
+     'Lucida Sans Unicode',
+     'Lucida Grande',
+     'Lucida Sans',
+     Arial,
+     sans-serif;
     
 }
 
 .title{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
     color: brown;
-    margin-top: 10rem;
+    margin-top: 3rem;
 }
 
 .container{
@@ -24,4 +30,25 @@ body{
     height: 60vh;
     margin: 9rem auto 0 auto;
     background-color: transparent;
+}
+
+.image{
+    width: 14vw;
+    height:14vh;
+    border-radius: 80%;
+}
+
+.text{
+    margin-top: 5rem;
+    font-size: 3rem;
+    color: grey;
+}
+.btn{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: aqua;
+margin: 3rem 10rem;
+    font-size: 3rem;
+    display: none;
 }
