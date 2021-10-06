@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #f1f5f8;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+
+.title{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+    margin-top: 10rem;
+}
+
+.container{
+    width: 50vw;
+    height: 60vh;
+    margin: 9rem auto 0 auto;
+    background-color: transparent;
+}
