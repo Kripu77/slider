@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Review = () => {
+const Review = ({id, name, job, text}) => {
     return (
         <div>
-          <h1>I', alive</h1>  
+          <h1>I', alive </h1>  
         </div>
     )
 }
