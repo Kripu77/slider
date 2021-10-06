@@ -33,14 +33,14 @@ body{
 }
 
 .image{
-    width: 14vw;
-    height:14vh;
-    border-radius: 80%;
+    width: 30vw;
+    height:18vh;
+    border-radius: 50%;
 }
 
 .text{
-    margin-top: 5rem;
-    font-size: 3rem;
+    margin-top: 3rem;
+    font-size: 1.1rem;
     color: grey;
 }
 .btn{
